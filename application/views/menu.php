@@ -1,10 +1,10 @@
 <div id="manmenu">
-	
-	<ul>
-		<li>1</li>
-		<li>2</li>
-		<li>3</li>
-		<li>4</li>
+		<ul>
+		<li><a href="#">home</a></li>
+		<li><a href="#">about me</a></li>
+		<li><a href="#">my stuffs</a></li>>
+		<li><a href="#">onekblog</a></li>
+		<li><a href="#">kontakt</a></li>
 	</ul>
 	
 </div>

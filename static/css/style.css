@@ -1,4 +1,93 @@
+@charset "UTF-8";
+/* 
+ @ Onekweb,	Mario Onekanda
+ @ April 20 - 2012 
+*/
 
+/* Colors:	#f98908 = Orange
+ * 			#2e2e2e = Black-grey
+ * 			#8f8e8e = Grey
+ * 
+ *  */ 
+@import url(http://fonts.googleapis.com/css?family=Jockey+One);
 body{
+	font-family: 		trebuchet MS,verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 			14px;
+	margin:				0px;
+	padding:			0px;
+	color:				#000;
+	background:			url('/img/header/trans-digital.png') repeat-x;
+}
+
+/* WRAPPER */
+#wrapper{
+	color: 				#000;
+	background:			#fff;
+	margin: 			0 auto;
+	padding:			10px;
+	width:				960px;
+	height:				auto;
+	overflow: 			hidden;
+	border:				1px solid #8f8e8e ;
+}
+
+/* HEADER */
+
+#header-content{
+	width:				935px;
+	height: 			67px;
+	margin:				0px;
+	padding:			0px;
+	display:			block;	
+}
+
+#logo{
+	width:				218px;
+	height:				65px;
+	float:				left;	
+}
+
+#logo a{
+	text-decoration: 	none;
+	color:				#8f8e8e;		
+}
+
+
+.logo-title {
+	font-family: 	Bradley Hand ITC,verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 		17px;
+    padding: 		0px 0px 0px 0px;
+    font-style:		 italic;
+    margin-top: 	1px;
+    line-height: 	3px;
+		
+}
+
+#loggin-form{
+	width:			415px;
+	float:			right;
+}
+.user-field{
+	float:			left;
+
+}
+
+.pass-field{
+	float:			left;
+}
+
+.remember-checkbox{
+	float:			left;
 	
 }
+
+.submit.btn{
+	float:			left;
+	
+}
+
+.label1{}
+
+.label2{}
+
+

@@ -11,7 +11,6 @@ class Onekweb extends CI_Controller{
 	public function index()
 	{
 		$data['title'] = "Welcome to Mario Onekanda' s website";
-		$data['logo'] = img('static/img/logo.png');
 		$this->load->view('header', $data);
 		$this->load->view('menu');
 		$this->load->view('content');

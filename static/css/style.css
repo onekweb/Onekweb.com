@@ -16,30 +16,21 @@ body{
 	margin:				0px;
 	padding:			0px;
 	color:				#000;
-	background:			url('/img/header/trans-digital.png') repeat-x;
+	background:			url('..img/header/trans-digital.png') repeat-x;
+}
+/* TOP */
+#top{
+	
+	height: 			64px;
+    margin-right:			auto;
+    margin-left:			auto;
+    width: 				960px;	
+    padding:			10px;
+    display:			block;
+    overflow: 			hidden;
 }
 
-/* WRAPPER */
-#wrapper{
-	color: 				#000;
-	background:			#fff;
-	margin: 			0 auto;
-	padding:			10px;
-	width:				960px;
-	height:				auto;
-	overflow: 			hidden;
-	border:				1px solid #8f8e8e ;
-}
 
-/* HEADER */
-
-#header-content{
-	width:				935px;
-	height: 			67px;
-	margin:				0px;
-	padding:			0px;
-	display:			block;	
-}
 
 #logo{
 	width:				218px;
@@ -59,35 +50,89 @@ body{
     padding: 		0px 0px 0px 0px;
     font-style:		 italic;
     margin-top: 	1px;
-    line-height: 	3px;
-		
+    line-height: 	104px;
+	float:			right;
+	line-height: 	86px;
 }
 
 #loggin-form{
-	width:			415px;
+	height:			64px;
+	width:			420px;
 	float:			right;
+	position: 		relative;
+	margin-top:			20px;
+	display: 		block;
 }
 .user-field{
-	float:			left;
+ 	margin: 		0px 11px 0px 0px;
+    width: 			130px;
+    border: 		1px solid #000;
+   }
 
-}
+.pass-field{	
+	margin: 		0px 5px 0px 0px;
+    width: 			130px;
+    border: 		1px solid #000;
 
-.pass-field{
-	float:			left;
 }
 
 .remember-checkbox{
-	float:			left;
+	
+    position: absolute;
+    right: 105px;
+    top: 23px;
 	
 }
 
-.submit.btn{
-	float:			left;
+.submit-btn{
+	background: 	#000;
+    width: 			45px;
+    color: 			#f98908;
+    border:			 none;
+    position: 		absolute;
+    right: 			10px;
+    top: 			1px;
+
 	
 }
 
-.label1{}
+.label1{
+	color: 			#f98908;
+	font-size: 13px;
+    position: absolute;
+    right: 5px;
+    top: 23px;
+}
 
-.label2{}
+.label2{
+color: 			#f98908;
+	font-size: 13px;
+    left: 0;
+    position: absolute;
+    top: 22px;
+}
+
+.label3{
+	color: 			#f98908;
+	
+font-size: 13px;
+    left: 152px;
+    position: absolute;
+    top: 22px;
+}
+
+
+/* WRAPPER */
+#wrapper{
+	color: 				#000;
+	background:			#fff;
+	margin: 			0 auto;
+	padding:			10px;
+	width:				960px;
+	height:				auto;
+	overflow: 			hidden;
+	border:				1px solid #8f8e8e ;
+}
+
 
 
